@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: calculator-container
-        image: <your-dockerhub-username>/calculator-app:latest
+        image: adiii999/calculator-app:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
